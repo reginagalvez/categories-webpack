@@ -183,9 +183,9 @@ abbrev@1:
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
 acorn@^6.2.1:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
-  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -1974,7 +1974,7 @@ imagemin-svgo@^7.0.0:
     is-svg "^3.0.0"
     svgo "^1.0.5"
 
-imagemin-webp@5.1.0, imagemin-webp@^5.0.0:
+imagemin-webp@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/imagemin-webp/-/imagemin-webp-5.1.0.tgz#ddb1307ad97aff97293c5a600e384e40c07f68a7"
   dependencies:
@@ -1982,7 +1982,7 @@ imagemin-webp@5.1.0, imagemin-webp@^5.0.0:
     exec-buffer "^3.0.0"
     is-cwebp-readable "^2.0.1"
 
-imagemin@6.1.0, imagemin@^6.1.0:
+imagemin@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/imagemin/-/imagemin-6.1.0.tgz#62508b465728fea36c03cdc07d915fe2d8cf9e13"
   dependencies:
@@ -4122,15 +4122,6 @@ watchpack@^1.6.0:
     chokidar "^2.0.2"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-
-webp-loader@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/webp-loader/-/webp-loader-0.5.0.tgz#d7185324770182ab6d55fe0bd6addfd13c89d01e"
-  integrity sha512-Hh1XkSHnvnZoIqDJyGxWJABjU/KLQrmCQD/XA39N4ECbiz26CMAURmwBJsdtHA84dusZ7delOTOJZh2IP0UU7Q==
-  dependencies:
-    imagemin "6.1.0"
-    imagemin-webp "5.1.0"
-    loader-utils "1.2.3"
 
 webpack-cli@^3.3.7:
   version "3.3.7"
